@@ -1,0 +1,11 @@
+Recommeded and Non recommended approaches in Pyhton 
+
+
+Recommended:
+	
+	1.import xyz
+
+
+Not-Recommended:
+
+	1.from xyz import *
