@@ -1,0 +1,26 @@
+Python Virtul environments handout. following commands are for mac and linux as i am using mac rn
+
+
+Python virtual env is helpful for creating a separate env w.r.t our requirements. we can make as many virtual envs as we want.
+
+it is created by the following connad link on the terminal
+
+ Python3 -m venv path_of_the_directory_nameOfTheVirEnv
+
+To activate the virtual env our systems we need to type the following command after the creation of virtual env 
+	
+	source path_of_the_directory_nameOfTheVirEnv/bin/acticate
+
+following command can stop the venv we are working in and move back to Global env 
+
+	deactivate
+
+imagine i want to export all the packages present in the venv to a text format then we have to use the following command 
+
+	pip freeze >  requirenmets.txt
+
+Then i want to install all the packages in the requirements.txt in my new vnv then we need to run the following command
+
+	pip install -r requirements.txt
+   
+
